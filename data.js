@@ -37,8 +37,8 @@ export const skills = [
         percentage: "80",
     },
     {
-        title: "Analytics",
-        skillName: "CleverTap, Countly",
+        title: "Soft Skills",
+        skillName: "Communication, Chat",
         color: "5",
         percentage: "50",
     },
@@ -53,98 +53,98 @@ export const skills = [
 export const projects = {
     webProjects: [
         {
-            projectName: "Programming Diaries",
+            projectName: "Senescence Atlas",
             image: "images/programmingdiaries.png",
             summary:
-                "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-            preview: "https://programmingdiaries.herokuapp.com/",
-            techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
+                "This project introduces a machine learning-based method for classifying senescence in single-cell RNA sequencing data, utilizing the SPiDER technique, which significantly enhances identification accuracy and provides new biological insights, particularly highlighting the role of IGF signaling in cellular senescence.",
+            preview: "",
+            techStack: ["scRNAseq", "Machine Learning", "Bioinformatics"],
         },
         {
-            projectName: "Find Your Bank",
+            projectName: "Ifng-Stat1 Axis in Intestine Aging",
             image: "images/findyourbank.png",
             summary:
-                "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-            preview: "https://clever-fermi-0d5d76.netlify.app",
-            techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+                "Aging disrupts intestinal stem cell function by upregulating antigen presenting and secretory lineage genes, driven by increased interferon gamma from proinflammatory cells, but can be reversed by inhibiting IFNγ-signaling.",
+            preview: "https://www.nature.com/articles/s41467-023-41683-y",
+            techStack: ["scRNAseq", "Organoids", "Bioinformatics", "R"],
         },
         {
-            projectName: "Web Portfolio",
+            projectName: "COAD Prognosis Model",
             image: "images/portfolio.png",
             summary:
-                "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-            preview: "https://github.com/vinaysomawat/Travographer-Portal",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
+                "Our study provides a novel tool that may contribute to the optimization of risk stratification for survival and personalized management of COAD.",
+            preview: "https://link.springer.com/article/10.1186/s12929-022-00867-2",
+            techStack: ["Data Analysis", "Data Curation", "Writing"],
         },
         {
             projectName: "Resume Builder",
             image: "images/resume-builder.png",
             summary:
-                "Browser based editor to build and download Resumes in a customizable templates.",
-            preview: "https://vinaysomawat.github.io/Resume-Builder",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
+                "Organoid cultures offer valuable insights into human diseases by mimicking in vivo tissue organization, though some niche or systemic factors are lost, with RNA-seq analysis revealing that in vitro culture significantly alters the transcriptome of intestinal epithelial cells.",
+            preview: "https://www.nature.com/articles/s41598-021-96321-8",
+            techStack: ["Organoids", "Crypts", "Data Analysis", "R"],
         },
     ],
     softwareProjects: [
         {
-            projectName: "Pizza Ordering ChatBot",
+            projectName: "Meta-data App",
             image: "images/pizzaorderchatbot.png",
             summary:
-                "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
+                "A meta-data app used for managing your big data.",
             preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-            techStack: ["Dailogflow", "Firebase"],
+            techStack: ["R", "Shinyapp"],
         },
         {
-            projectName: "WhatsApp-Bot",
+            projectName: "Atlas Interaction App",
             image: "images/whatsappbot.jpg",
             summary:
-                "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
+                "An app to interact with the single cell intestine atlas.",
             preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-            techStack: ["Selenium", "Chrome Webdriver", "Python"],
+            techStack: ["R", "Shinyapp", "Data Analysis"],
         },
         {
-            projectName: "Bill Generator",
+            projectName: "Regeneration App",
             image: "images/billgenerator.png",
             summary:
-                "GUI to transfer data to excel sheets and generate bills on the local shops.",
+                "An app to visualize the molecular process in intestine regeneration.",
             preview: "https://github.com/vinaysomawat/Bill-Generator",
-            techStack: ["Tkinter", "Openxlpy", "Python"],
+            techStack: ["R", "Shinyapp", "Data Analysis"],
         },
     ],
     androidProjects: [
         {
-            projectName: "NITW-CSE",
+            projectName: "Precision Medicine",
             image: "images/nitwcse.jpg",
             summary:
-                "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-            preview: "https://github.com/vinaysomawat/NITW-CSE",
-            techStack: ["JAVA", "XML", "Android"],
+                "A tumore mutation load research",
+            preview: "https://jamanetwork.com/journals/jamaoncology/article-abstract/2726029",
+            techStack: ["Medicine", "Diagnosis", "Clinical", "Prediction"],
         },
         {
-            projectName: "CareerHigh-App",
+            projectName: "Immune Therapy",
             image: "images/carrerhigh.png",
             summary:
-                "The Application display the webpages of website careerhigh.in in android devices.",
-            preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-            techStack: ["JAVA", "XML", "Android"],
+                "An research development on neoantigen vaccine therapy.",
+            preview: "",
+            techStack: ["Shell", "Pipeline", "Medicine", "Clinical"],
         },
     ],
     freelanceProjects: [
         {
-            projectName: "SnylloAir.com",
+            projectName: "Individual Identification",
             image: "images/snylloair.png",
             summary:
-                "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-            preview: "https://www.snylloair.com/",
-            techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+                "Developed many applications regarding individual identification.",
+            preview: "",
+            techStack: ["Wafergen", "Amplicon Sequencing", "Pipeline", "Low Cost"],
         },
         {
-            projectName: "Delivery+",
+            projectName: "Single Cell RNA Sequencing Technology Development",
             image: "images/AM-Logo-.png",
-            summary: "Android Application to display website in android devices.",
+            summary: "Single cell RNAseq technology development based on micro amount system from scratch.",
             preview:
-                "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-            techStack: ["Android", "JAVA", "Play Store"],
+                "",
+            techStack: ["System Determination", "Wet Lab", "Tiny Amount"],
         },
     ],
 };
