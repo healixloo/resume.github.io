@@ -5,10 +5,6 @@ const createMediumURL = (username) => `https://api.rss2json.com/v1/api.json?rss_
 const createGitConnectedURL = (username) => `https://gitconnected.com/v1/portfolio/${username}`;
 
 export const URLs = {
-    get medium() {
-        return createMediumURL(mediumUsername);
-    },
-    get gitConnected() {
-        return createGitConnectedURL(githubUsername);
-    }
+    medium: createMediumURL(mediumUsername),
+    gitConnected: createGitConnectedURL(githubUsername)
 };
