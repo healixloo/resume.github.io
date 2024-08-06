@@ -54,15 +54,15 @@ export const projects = {
     webProjects: [
         {
             projectName: "Senescence Atlas",
-            image: "images/programmingdiaries.png",
+            image: "images/sc.png",
             summary:
                 "This project introduces a machine learning-based method for classifying senescence in single-cell RNA sequencing data, utilizing the SPiDER technique, which significantly enhances identification accuracy and provides new biological insights, particularly highlighting the role of IGF signaling in cellular senescence.",
-            preview: "",
+            preview: "https://github.com/donertas-group/senescence_atlas",
             techStack: ["scRNAseq", "Machine Learning", "Bioinformatics"],
         },
         {
             projectName: "Ifng-Stat1 Axis in Intestine Aging",
-            image: "images/findyourbank.png",
+            image: "images/sc.png",
             summary:
                 "Aging disrupts intestinal stem cell function by upregulating antigen presenting and secretory lineage genes, driven by increased interferon gamma from proinflammatory cells, but can be reversed by inhibiting IFNγ-signaling.",
             preview: "https://www.nature.com/articles/s41467-023-41683-y",
@@ -70,15 +70,15 @@ export const projects = {
         },
         {
             projectName: "COAD Prognosis Model",
-            image: "images/portfolio.png",
+            image: "images/sc.png",
             summary:
                 "Our study provides a novel tool that may contribute to the optimization of risk stratification for survival and personalized management of COAD.",
             preview: "https://link.springer.com/article/10.1186/s12929-022-00867-2",
             techStack: ["Data Analysis", "Data Curation", "Writing"],
         },
         {
-            projectName: "Resume Builder",
-            image: "images/resume-builder.png",
+            projectName: "Organoids Aging Model",
+            image: "images/sc.png",
             summary:
                 "Organoid cultures offer valuable insights into human diseases by mimicking in vivo tissue organization, though some niche or systemic factors are lost, with RNA-seq analysis revealing that in vitro culture significantly alters the transcriptome of intestinal epithelial cells.",
             preview: "https://www.nature.com/articles/s41598-021-96321-8",
@@ -88,7 +88,7 @@ export const projects = {
     softwareProjects: [
         {
             projectName: "Meta-data App",
-            image: "images/pizzaorderchatbot.png",
+            image: "images/shiny.png",
             summary:
                 "A meta-data app used for managing your big data.",
             preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
@@ -96,7 +96,7 @@ export const projects = {
         },
         {
             projectName: "Atlas Interaction App",
-            image: "images/whatsappbot.jpg",
+            image: "images/shiny.jpg",
             summary:
                 "An app to interact with the single cell intestine atlas.",
             preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
@@ -104,7 +104,7 @@ export const projects = {
         },
         {
             projectName: "Regeneration App",
-            image: "images/billgenerator.png",
+            image: "images/shiny.png",
             summary:
                 "An app to visualize the molecular process in intestine regeneration.",
             preview: "https://github.com/vinaysomawat/Bill-Generator",
@@ -114,7 +114,7 @@ export const projects = {
     androidProjects: [
         {
             projectName: "Precision Medicine",
-            image: "images/nitwcse.jpg",
+            image: "images/medicine.jpg",
             summary:
                 "A tumore mutation load research",
             preview: "https://jamanetwork.com/journals/jamaoncology/article-abstract/2726029",
@@ -122,7 +122,7 @@ export const projects = {
         },
         {
             projectName: "Immune Therapy",
-            image: "images/carrerhigh.png",
+            image: "images/medicine.jpg",
             summary:
                 "An research development on neoantigen vaccine therapy.",
             preview: "",
@@ -132,7 +132,7 @@ export const projects = {
     freelanceProjects: [
         {
             projectName: "Individual Identification",
-            image: "images/snylloair.png",
+            image: "images/snp.png",
             summary:
                 "Developed many applications regarding individual identification.",
             preview: "",
@@ -140,7 +140,7 @@ export const projects = {
         },
         {
             projectName: "Single Cell RNA Sequencing Technology Development",
-            image: "images/AM-Logo-.png",
+            image: "images/snp.png",
             summary: "Single cell RNAseq technology development based on micro amount system from scratch.",
             preview:
                 "",
