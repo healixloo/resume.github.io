@@ -96,7 +96,7 @@ export const projects = {
         },
         {
             projectName: "Atlas Interaction App",
-            image: "images/shiny.jpg",
+            image: "images/shiny.png",
             summary:
                 "An app to interact with the single cell intestine atlas.",
             preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
