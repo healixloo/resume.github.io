@@ -1,39 +1,38 @@
 export const bio = [
-    "Hello there, This is Vinay Somawat.",
-    `Experienced Frontend Software Engineer with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
-    `Eager to apply my technical expertise and in-depth
-    product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
+    "Hello there, This is Healix Loo.",
+    `Experienced Bioinformatician with a strong track record of successfully implemented projects of both in science and in industry.`,
+    `Eager to apply my technical expertise and in-depth understanding to drive impactful contributions and exceed expectations in challenging projects.`,
     "Thanks for taking the time to learn a little about me!",
 ];
 
 export const skills = [
     {
         title: "Languages",
-        skillName: "JavaScript, TypeScript",
+        skillName: "English, German, Japanese, Chinese",
         color: "1",
         percentage: "80",
     },
     {
-        title: "Frameworks/Libraries",
-        skillName: "Angular, RxJS, NGXS",
+        title: "Frameworks",
+        skillName: "Nextflow, Snakemake",
         color: "6",
         percentage: "70",
     },
     {
-        title: "Design",
-        skillName: "HTML, Bootstrap, Tailwind",
+        title: "Programming",
+        skillName: "Shell, Perl, Python, R",
         color: "4",
         percentage: "70",
     },
     {
         title: "Version Control",
-        skillName: "GitHub, JIRA, Bitbucket",
+        skillName: "GitHub, GitLab",
         color: "7",
         percentage: "70",
     },
     {
         title: "Tools",
-        skillName: "Postman, Chrome DevTools",
+        skillName: "Docker, Podman, Singularity",
         color: "3",
         percentage: "80",
     },
